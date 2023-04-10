@@ -21,6 +21,7 @@
 body {
     background-color: var(--cor0);
     font-family: var(--fontdan);
+    width: 100vw;
 }
 
 
@@ -158,8 +159,24 @@ footer a {
 
 @media (max-width: 550px) {
    header, nav {
-    width: 550px;
+    width: 850px;
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    text-align: center;
+    padding: 0;
+    margin: 0;
    } 
+
+   main {
+    display: flex;
+    width: 550px;
+    margin: 0 30% 0;
+   }
+
+   footer {
+    width: 850px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+   }
 
 }
