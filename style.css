@@ -159,7 +159,7 @@ footer a {
 
 @media (max-width: 550px) {
    header, nav {
-    width: 850px;
+    width: 950px;
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     text-align: center;
     padding: 0;
