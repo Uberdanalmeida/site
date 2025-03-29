@@ -158,6 +158,12 @@ footer a {
 }
 
 @media (max-width: 550px) {
+
+    body {
+        height: 100vh;
+        width: 100vh;
+    }
+    
     header {
         width: 999px;
         padding-left: 20px;
@@ -171,8 +177,7 @@ footer a {
 
    main {
     display: flex;
-    width: 550px;
-    margin: 0 45% 0;
+    width: 550px; 
    }
 
    footer {
