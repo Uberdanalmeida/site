@@ -158,36 +158,52 @@ footer a {
     text-decoration: none;
 }
 
-@media (max-width: 550px) {
-
-    body {
-        height: 100vh;
-        width: 100vh;
+@media (max-width: 768px) {
+    header > p {
+        width: auto;
     }
-    
+}
+
+@media (max-width: 600px) {
     header {
-        width: 999px;
-        padding-left: 20px;
+        padding-top: 15px;
+        min-height: 80px;
     }
-    
-   nav {
-    width: 999px;
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-    text-align: center;
-   } 
 
-   main {
-    display: flex;
-    width: 550px; 
-   }
+    header > h1 {
+        font-size: 1.8em;
+        margin-bottom: 8px;
+    }
 
-   footer {
-    width: 999px;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    margin-top: 5px;
-    padding: 10px;
-   }
+    header > p {
+        font-size: 0.9em;
+        padding-bottom: 20px;
+    }
 
+    nav > a {
+        padding: 6px;
+        font-size: 0.9em;
+    }
+
+    main > h1 {
+        font-size: 1.6em;
+    }
+
+    main h2 {
+        font-size: 1.2em;
+    }
+
+    main p {
+        font-size: 0.9em;
+        text-indent: 15px;
+    }
+
+    aside h3 {
+        font-size: 1.1em;
+    }
+
+    footer {
+        font-size: 0.7em;
+        padding: 8px;
+    }
 }
