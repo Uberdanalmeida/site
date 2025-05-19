@@ -169,16 +169,19 @@ footer a {
     }
 
     header > h1 {
+        width: 100%;
         font-size: 1.8em;
         margin-bottom: 8px;
     }
 
     header > p {
+        width: 100%;
         font-size: 0.9em;
         padding-bottom: 20px;
     }
 
     nav > a {
+        width: 100%;
         padding: 6px;
         font-size: 0.9em;
     }
