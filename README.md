@@ -1,3 +1,5 @@
+![Formulario simples](imagens/site.jpeg)
+
 # 🤖 Curiosidades de Tecnologia
 
 Um site simples em HTML e CSS que explora as curiosidades do mundo da tecnologia, com foco na história do mascote Android.
