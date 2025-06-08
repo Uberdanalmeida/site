@@ -1,4 +1,4 @@
-![Formulario simples](imagens/site.jpeg)
+![Formulario simples](imagens/site.png)
 
 # 🤖 Curiosidades de Tecnologia
 
