@@ -20,7 +20,7 @@
 body {
     background-color: var(--cor0);
     font-family: var(--fontdan);
-    width: 100vw;
+    width: 100%;
 }
 
 
